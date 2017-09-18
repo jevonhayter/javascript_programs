@@ -1,8 +1,11 @@
-var a;
 
-function go() {
+function go(a) {
   a = 2;
 }
 
-go();
+var a;
+
+go(a);
 console.log(a);
+
+// Hoisting
