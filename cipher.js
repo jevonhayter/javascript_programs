@@ -1,3 +1,4 @@
+// Jevon D. Hayter
 // Cipher function
 function rot13(string) {
   var alphabet = [];
@@ -32,6 +33,6 @@ function rot13(string) {
        newString += (originalLetter === originalLetter.toUpperCase()) ? alphabet[result - 13] : alphabet[result - 13].toLowerCase();
     }
   }
+
   return newString;
 }
-console.log(rot13('teachers!!!!!!!----123'));
